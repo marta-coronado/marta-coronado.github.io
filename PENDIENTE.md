@@ -1,66 +1,39 @@
 # Pendiente de completar
 
-He rellenado la web con datos públicos de tu ORCID, el Portal de Recerca de la UAB, GitHub y UAB Divulga.
-Esto es lo que falta o conviene revisar. Escribe tus respuestas aquí debajo de cada punto (o pásame las fotos) y lo incorporo.
-
 > Este fichero no se publica en la web (está excluido en `_config.yaml`).
 
----
+## Revisión del 23/11/2026 (con el CV de lectora, la AAD y el dossier de agregada)
 
-## 1. Fotos
+Cambios hechos EN LOCAL (todavía no subidos a GitHub; se publican al hacer `git push`):
 
-Ahora todas las imágenes son las de la plantilla (`images/photo.jpg`, `images/background.jpg`). Necesitaría:
+- **Publicaciones**: se ocultan 8 entradas duplicadas que venían de ORCID (los preprints de artículos ya publicados,
+  el corrigendum de DEST y la nota de DrosRTEC), con `remove: true` en `_data/sources.yaml`. El listado se
+  regenera solo al hacer push. Se mantienen los preprints que aún no están publicados (Pool-Seq y ratones).
+- **Destacadas**: DEST 2.0 (MBE 2025, co-primera y co-correspondencia), Genome Biology 2025 y Genome Research 2023
+  (antes eran dos predoctorales).
+- **Research**: añadidas las líneas actuales (adaptación urbana en Anopheles y Culex, TEs y epigenómica,
+  garrapatas/CATick, DrosEU).
+- **Projects**: separados en "Projects I lead" (URBANOMICS, CATick, RES) y "Projects I take part in"
+  (PID2024, PID2023, ERC).
+- **CV**: puestos corregidos (lectora desde 2025; asociada 2019-2025, no "Assistant Professor"; postdoc UAB
+  2018-2020), estancia en Münster 2017, acreditaciones (lectora 2022 y tramo de investigación 2026),
+  financiación como IP, premios, dirección (codirección de tesis, 5 TFM, 3 TFG), gestión (Comissió de Qualitat,
+  comisiones de seguimiento, simposios, revisora) y divulgación (Melanogaster: CTF, CosmoCaixa, Argó…).
+- **Teaching**: TAB y Bioestadística como responsable, Data Visualization y Filogenómica (UPC), innovación docente
+  (AIR-LAB, Adapta't, e-learning) y cursos especializados (ENS París, LifeHUB Doñana, CIBEREHD, SCB).
 
-- [ ] **Foto tuya** (retrato, idealmente cuadrada) → página de inicio y perfil
-- [ ] **Imagen de cabecera/fondo** (`images/background.jpg`), p. ej. una foto de laboratorio, de moscas, un gráfico tuyo…
-- [ ] **Imágenes para las tarjetas de inicio**: Research, Projects, Resources, CV
-- [ ] **Imágenes para los proyectos y recursos** (opcional): URBANOMICS (mosquito), CATick (garrapata), iMKT, DEST, DrosOmics, PopHumanScan
-- [ ] **Logo / icono** del sitio (`images/logo.svg`, `images/icon.png`), si quieres uno propio
+## Preguntas que quedan (contesta debajo de cada una)
 
-## 2. Contacto
-
-- [x] **Email**: he puesto `marta.coronado@uab.cat` (sacado del README de TAB). Cámbialo si prefieres otro.
-- [ ] **Despacho / dirección exacta** (edificio, despacho):
-- [ ] ¿Quieres mostrar **teléfono**? (Sí/No, cuál):
-- [ ] ¿Sigues usando **Twitter/X @geneticament**? ¿Tienes Bluesky, LinkedIn, ResearchGate…?
-
-## 3. Publicaciones (Google Scholar)
-
-Ahora las publicaciones se cargan **automáticamente desde tu ORCID** (32 entradas, incluyendo dos de UAB Divulga).
-
-- [ ] **Tu ID de Google Scholar** (lo que va tras `user=` en la URL de tu perfil):
-- [ ] Para que la web lea Google Scholar automáticamente hace falta una **clave de SerpAPI** (servicio de pago con plan gratuito, 100 búsquedas/mes), que se guarda como secret `GOOGLE_SCHOLAR_API_KEY` en GitHub. ¿Quieres hacerlo?
-  - Alternativa sin clave: me dices qué preprints de bioRxiv o artículos faltan y los añado a mano en `_data/sources.yaml`.
-- [ ] ¿Hay más artículos de **divulgación** (UAB Divulga, The Conversation, prensa…) aparte de los dos de 2018 y 2019?
-- [ ] ¿Qué **3 publicaciones** quieres destacar? Ahora mismo: Genome Biology 2025 (TEs y epigenética), MBE 2018 (selección en el embrión) y NAR 2019 (iMKT).
-
-## 4. Texto de presentación
-
-He redactado una bio breve en inglés a partir de tu ORCID. Revísala en `index.md` y `research/index.md`.
-
-- [ ] ¿La web en **inglés**, castellano, catalán o bilingüe?
-- [ ] Tu **línea de investigación actual** como lecturer (¿mosquitos urbanos, garrapatas, ratones salvajes…?) en 3-5 frases:
-- [ ] ¿Tienes **grupo** propio o formas parte de alguno en la UAB (p. ej. Bioinformàtica de la Diversitat Genòmica)?
-
-## 5. CV
-
-- [ ] **Docencia**: la pestaña Teaching muestra TAB y Bioestadística (UAB), y Data Visualization (UPC). ¿Sigues en la UPC? ¿Quito alguno o añado otras asignaturas?
-- [ ] **Licencia de los materiales docentes**: ahora tienen GPL (GPL-3.0; Data Visualization GPL-2.0), que está pensada para código. Para apuntes y diapositivas lo habitual es **Creative Commons**: CC BY 4.0 (reutilización libre citándote) o CC BY-NC-SA 4.0 (sin uso comercial y compartiendo igual). Una opción común es CC para el contenido y MIT/GPL para el código. ¿Cuál prefieres?
-- [ ] **Estancias** de investigación (p. ej. Helsinki con Isaac Salazar-Ciudad, Brighton con Adam Eyre-Walker…):
-- [ ] **Becas y premios** (FPI/FPU, Juan de la Cierva, Beatriu de Pinós, premios de tesis…):
-- [ ] **Dirección de estudiantes** (TFG, TFM, tesis):
-- [ ] **Comunicaciones en congresos** destacadas, charlas invitadas:
-- [ ] **Divulgación/outreach** (Setmana de la Ciència, etc.):
-- [ ] **Revisora** de revistas, comités, gestión:
-- [ ] ¿Quieres un **PDF del CV** descargable? Pásamelo y lo enlazo.
-
-## 6. Proyectos y herramientas
-
-- [ ] Revisa las fechas y tu rol en cada proyecto (sacados del Portal de Recerca UAB).
-- [ ] ¿Otros proyectos o software tuyos que añadir? ¿Quieres quitar alguno?
-- [ ] Webs de iMKT y DrosOmics: no respondían, así que enlazan al artículo. ¿Tienen URL activa?
-
-## 7. Otros
-
-- [ ] El **blog** está oculto del menú (y he borrado los posts de ejemplo). ¿Lo quieres activar?
-- [ ] La URL será `marta-coronado.github.io/adaptomics`. ¿Te gusta el nombre "adaptomics" o prefieres otro (p. ej. un dominio propio)?
+1. **Fotos**: retrato, imagen de cabecera y una imagen por proyecto (mosquito, garrapata, mosca). Ahora todas son
+   de la plantilla, y es lo que más se nota.
+2. **Filogenómica (UPC)**: ¿tiene web o repositorio para enlazarla? ¿Y la asignatura Bioinformàtica (Grau de
+   Genètica), la incluyo?
+3. **Fechas que no tengo seguras**: fin de URBANOMICS; años del ERC y del PID2023 en los que participaste.
+4. **Codirección de tesis**: ¿pongo el nombre del doctorando (Vicente Chillida Martínez) o lo dejo genérico?
+5. **Artículo de Anopheles**: cuando esté en bioRxiv, ponlo en tu ORCID y saldrá solo; lo añadiré a destacadas.
+6. **Contacto**: despacho, ¿sigues en Twitter/X @geneticament? ¿Bluesky, LinkedIn, Google Scholar?
+   (ID de Scholar: aD0b6EEAAAAJ, ya lo tengo: ¿lo añado como enlace?)
+7. **Licencia de los materiales docentes**: ¿CC BY 4.0 para el contenido y MIT/GPL para el código?
+8. **PDF del CV descargable**: ¿quieres enlazar uno? (Se haría una versión pública, sin DNI, teléfono ni dirección.)
+9. **Nombre/URL**: `marta-coronado.github.io/adaptomics`, ¿te gusta o prefieres otro?
+10. **Blog**: ¿lo activamos (noticias: proyectos concedidos, papers, congresos)?

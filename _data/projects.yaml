@@ -1,9 +1,37 @@
+# group: lead (projects I lead) | participant (projects I take part in)
+
 - title: URBANOMICS
-  subtitle: Principal Investigator · 2026–2027
+  subtitle: Principal Investigator · 2026–
+  group: lead
   image: images/photo.jpg
-  description: Dissecting the genomic basis of adaptation to urban environments in the _Culex pipiens_ mosquito.
+  description: Dissecting the genomic basis of adaptation to urban environments in the _Culex pipiens_ mosquito, combining contemporary and historical genomes. Funded by the UAB (PPC 2026, Emerging leaderships). In collaboration with the IRD (Diego Ayala).
 
 - title: CATick
-  subtitle: Principal Investigator · 2026–2028
+  subtitle: Principal Investigator (co-PI Óscar Cabezón) · 2026–2027
+  group: lead
   image: images/photo.jpg
-  description: Genome assembly of tick species present in Catalonia.
+  description: Genome assembly of the tick species present in Catalonia. Funded by the Institut d'Estudis Catalans within the Catalan Biogenome Project.
+
+- title: RES supercomputing allocation
+  subtitle: Team Leader · 2026
+  group: lead
+  image: images/photo.jpg
+  description: Processing of tissue-specific transcriptomics and epigenomics datasets from ecologically relevant _Drosophila_ species. 40,000 CPU hours on Finis Terrae III (CESGA), Spanish Supercomputing Network (BCV-2026-1-0052).
+
+- title: Genomic adaptation and stress responses in a changing world
+  subtitle: Team member · 2025–2028
+  group: participant
+  image: images/photo.jpg
+  description: From mechanisms to resources. Spanish Ministry of Science (PID2024-162000NB-I00). PIs Dr. M. Pilar García Guerreiro and Dr. Sònia Casillas (UAB).
+
+- title: Adaptation to natural and urban environments through mutations induced by mobile elements
+  subtitle: Team member · 2024–
+  group: participant
+  image: images/photo.jpg
+  description: Spanish Ministry of Science (PID2023-148838NB-I00). PI Dr. Josefa González (IBB, CSIC).
+
+- title: New approaches to long-standing questions: adaptation in Drosophila
+  subtitle: Team member · 2020–2021
+  group: participant
+  image: images/photo.jpg
+  description: European Research Council Consolidator Grant (H2020-ERC-2014-CoG-647900). PI Dr. Josefa González (IBE, CSIC-UPF).

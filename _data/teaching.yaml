@@ -1,13 +1,15 @@
+# group: uab | upc
+
 - title: Current Topics in Bioinformatics (TAB)
-  subtitle: BSc in Genetics · Universitat Autònoma de Barcelona
+  subtitle: BSc in Genetics · UAB · course coordinator · 2019–
   group: uab
   image: images/photo.jpg
   link: https://marta-coronado.github.io/TAB/
-  description: Practical sessions on bioinformatics workflows (data management, exploration and visualization) and real cases in genomics (differential gene expression and single-cell analysis with Seurat).
+  description: Elective course I designed in 2019 and have coordinated since. Hands-on bioinformatics as in a real research project (reproducible workflows with Jupyter, GitHub and Overleaf, differential expression, single-cell analysis with Seurat), combined with seminars by young researchers. Taught in English.
   repo: marta-coronado/TAB
 
 - title: Biostatistics
-  subtitle: BSc in Genetics · Universitat Autònoma de Barcelona
+  subtitle: BSc in Genetics · UAB · course coordinator · 2025–
   group: uab
   image: images/photo.jpg
   link: https://marta-coronado.github.io/biostatistics-uab/
@@ -15,8 +17,15 @@
   repo: marta-coronado/biostatistics-uab
 
 - title: Data Visualization
-  subtitle: BSc in Bioinformatics · Universitat Politècnica de Catalunya
+  subtitle: BSc in Bioinformatics · UPC
+  group: upc
   image: images/photo.jpg
   link: https://marta-coronado.github.io/data_visualization/
-  description: Theory resources and computer lab materials of the Data Visualization course.
+  description: Theory resources and computer lab materials of the Data Visualization course (R, ggplot2, R Markdown and Shiny).
   repo: marta-coronado/data_visualization
+
+- title: Phylogenomics
+  subtitle: BSc in Bioinformatics · UPC
+  group: upc
+  image: images/photo.jpg
+  description: Practical sessions of the Phylogenomics course.

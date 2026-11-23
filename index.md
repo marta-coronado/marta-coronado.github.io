@@ -12,7 +12,7 @@
 I am a **Lecturer in Genetics** at the [Department of Genetics and Microbiology](https://www.uab.cat/departament/genetica-microbiologia/) of the **Universitat Autònoma de Barcelona (UAB)**.
 
 I am interested in how natural populations adapt to their environment.
-My work combines **population genomics**, **transposable elements**, **epigenomics** and **multi-omics data integration**, mostly in _Drosophila melanogaster_, and more recently in other species such as mosquitoes and ticks.
+My work combines **population genomics**, **transposable elements**, **epigenomics** and **multi-omics data integration**. I have worked mostly in _Drosophila melanogaster_, and I now lead projects on urban adaptation in mosquitoes and on the genomes of ticks.
 
 {%
   include button.html
@@ -29,7 +29,7 @@ My work combines **population genomics**, **transposable elements**, **epigenomi
 
 {% capture text %}
 
-From the action of natural selection along the _Drosophila_ life cycle to the epigenetic effects of transposable elements in natural populations: a selection of my published work.
+From the action of natural selection along the _Drosophila_ life cycle to the epigenetic effects of transposable elements and the worldwide DEST 2.0 resource: my research lines and publications.
 
 {%
   include button.html
@@ -100,7 +100,7 @@ Bioinformatic tools and genomic resources I have helped develop: iMKT, PopHumanS
 
 {% capture text %}
 
-Education, research positions and teaching: from my degree in Genetics at the UAB to my postdoc at the Institute of Evolutionary Biology (IBE, CSIC-UPF).
+Positions, education, funding, awards, supervision and service: from my degree in Genetics at the UAB to my current position as Lecturer.
 
 {%
   include button.html

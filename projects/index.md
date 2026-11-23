@@ -7,8 +7,14 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-flask" %}Projects
 
-Research projects I currently lead.
+{% include section.html %}
+
+## Projects I lead
+
+{% include list.html component="card" data="projects" filter="group == 'lead'" %}
 
 {% include section.html %}
 
-{% include list.html component="card" data="projects" %}
+## Projects I take part in
+
+{% include list.html component="card" data="projects" filter="group == 'participant'" %}

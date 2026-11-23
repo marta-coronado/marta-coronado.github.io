@@ -1,9 +1,21 @@
 # papers to highlight or enrich; the full list is pulled automatically from ORCID (_data/orcid.yaml)
 
+# --- highlighted (tags) ---
+- id: doi:10.1093/molbev/msaf132
+  tags:
+    - population genomics
+    - adaptation
+    - resource
+
 - id: doi:10.1186/s13059-025-03705-4
   tags:
     - transposable elements
     - epigenomics
+
+- id: doi:10.1101/GR.277565.122
+  tags:
+    - transposable elements
+    - transcriptomics
 
 - id: doi:10.1093/molbev/msx266
   tags:
@@ -15,3 +27,20 @@
     - natural selection
     - software
 
+# --- hidden: preprint versions of papers already published, corrigenda and notes ---
+- id: doi:10.1101/2024.11.10.622744   # DEST 2.0 preprint (published in MBE 2025)
+  remove: true
+- id: doi:10.1101/2023.11.27.568862   # TE epigenetics preprint (published in Genome Biology 2025)
+  remove: true
+- id: doi:10.1101/2022.12.02.518890   # head/gut/ovary preprint (published in Genome Research 2023)
+  remove: true
+- id: doi:10.1101/2021.07.12.452058   # copper preprint (published in BMC Biology 2022)
+  remove: true
+- id: doi:10.1101/2021.02.01.428994   # DEST preprint (published in MBE 2021)
+  remove: true
+- id: doi:10.32942/OSF.IO/G5XHZ       # PCR validation preprint (published in Methods Mol Biol)
+  remove: true
+- id: doi:10.1093/MOLBEV/MSAB337      # DEST corrigendum
+  remove: true
+- id: doi:10.1101/2021.01.26.428249   # DrosRTEC metadata note
+  remove: true
