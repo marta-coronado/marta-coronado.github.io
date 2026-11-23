@@ -5,6 +5,6 @@
 
   # marta-coronado's Website
 
-  Visit **[marta-coronado.github.io/adaptomics](https://marta-coronado.github.io/adaptomics)** 🚀
+  Visit **[marta-coronado.github.io](https://marta-coronado.github.io)** 🚀
 
   _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
