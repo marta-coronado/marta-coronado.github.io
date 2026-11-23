@@ -1,7 +1,7 @@
 ---
 title: CV
 nav:
-  order: 5
+  order: 6
   tooltip: Positions, education, funding and service
 redirect_from:
   - team

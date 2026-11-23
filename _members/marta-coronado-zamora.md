@@ -1,6 +1,6 @@
 ---
 name: Marta Coronado-Zamora
-image: images/photo.jpg
+image: images/portrait.jpg
 role: lecturer
 affiliation: Universitat Autònoma de Barcelona
 aliases:

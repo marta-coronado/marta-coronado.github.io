@@ -44,7 +44,7 @@ From the action of natural selection along the _Drosophila_ life cycle to the ep
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/home-research.jpg"
   link="research"
   title="Research"
   text=text
@@ -67,7 +67,7 @@ My current research projects: the genomic basis of urban adaptation in the _Cule
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/home-projects.jpg"
   link="projects"
   title="Projects"
   flip=true
@@ -92,7 +92,7 @@ Bioinformatic tools and genomic resources I have helped develop: iMKT, PopHumanS
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/home-resources.jpg"
   link="resources"
   title="Resources"
   text=text
@@ -115,7 +115,7 @@ Positions, education, funding, awards, supervision and service: from my degree i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/home-cv.jpg"
   link="cv"
   title="CV"
   flip=true

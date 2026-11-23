@@ -2,8 +2,8 @@
 title: Marta Coronado-Zamora
 subtitle: Population genomics · Adaptation · Transposable elements
 description: Lecturer in Genetics at the Universitat Autònoma de Barcelona. I study how natural populations adapt to their environment, combining population genomics, transposable elements, epigenomics and multi-omics data integration.
-header: images/background.jpg
-footer: images/background.jpg
+header: images/banner.jpg
+footer: images/banner.jpg
 proofer: false
 
 # site social media and other links
@@ -71,6 +71,7 @@ exclude:
   - LICENSE.md
   - CITATION.cff
   - PENDIENTE.md
+  - images/LEEME_FOTOS.md
 
 # configure jekyll spaceship
 jekyll-spaceship:
